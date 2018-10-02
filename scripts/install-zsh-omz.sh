@@ -6,18 +6,9 @@
 #
 #======================================================================================
 
-mkdir ~/tmp
+# https://www.unixmen.com/install-oh-zsh-ubuntu-arch-linux-fedora/
 
-cd ~/tmp/
+# https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
 
-git clone https://aur.archlinux.org/yay.git
+curl -L http://install.ohmyz.sh | sh
 
-cd yay
-
-makepkg -si
-
-cd
-
-cd 
-
-rm -r ~/tmp

@@ -6,18 +6,8 @@
 #
 #======================================================================================
 
-mkdir ~/tmp
+sudo pacman -S conky
 
-cd ~/tmp/
+cd ~/.config
 
-git clone https://aur.archlinux.org/yay.git
-
-cd yay
-
-makepkg -si
-
-cd
-
-cd 
-
-rm -r ~/tmp
+sudo cp /etc/conky/conky.conf .conkyrc

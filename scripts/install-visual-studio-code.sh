@@ -6,15 +6,21 @@
 #
 #======================================================================================
 
+# https://linuxhint.com/install_visual_studio_code_arch_linux/
+
+# git should be installed 
+
 mkdir ~/tmp
 
 cd ~/tmp/
 
-git clone https://aur.archlinux.org/yay.git
+git clone https://AUR.archlinux.org/visual-studio-code-bin.git
 
-cd yay
+cd visual-studio-code-bin/
 
-makepkg -si
+makepkg -s
+
+sudo pacman -U visual-studio-code-bin-*.pkg.tar.xz
 
 cd
 
