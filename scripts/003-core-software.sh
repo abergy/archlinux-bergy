@@ -7,6 +7,7 @@
 #======================================================================================
 
 sudo pacman -S --noconfirm --needed baobab bleachbit
+sudo pacman -S --noconfirm --needed fuse-exfat
 sudo pacman -S --noconfirm --needed curl htop iptables
 sudo pacman -S --noconfirm --needed evince firefox filezilla thunderbird telegram-desktop
 sudo pacman -S --noconfirm --needed git galculator

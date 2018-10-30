@@ -6,7 +6,7 @@
 #
 #======================================================================================
 
-sudo pacman -S conky
+sudo pacman -S --noconfirm --needed conky
 
 cd ~/.config
 

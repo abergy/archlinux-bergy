@@ -10,6 +10,8 @@
 sudo pacman -S --noconfirm --needed keepass
 sudo pacman -S --noconfirm --needed libreoffice teamspeak3
 sudo pacman -S --noconfirm --needed guake
+sudo pacman -S --noconfirm --needed okular
+
 
 sudo pacaur -S --noconfirm --needed spotify
 
