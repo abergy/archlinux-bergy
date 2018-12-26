@@ -10,4 +10,6 @@
     - Kee + KeepasRPC.plgx
 - WLAN Drivers MacBook Pro 2012 Early
     - linux419-broadcom-wl
+- conky
+    
 
