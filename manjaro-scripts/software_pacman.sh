@@ -8,3 +8,4 @@
 
 sudo pacman -S --noconfirm --needed keepass
 sudo pacman -S --noconfirm --needed teamspeak3
+sudo pacman -S --noconfirm --needed telegram

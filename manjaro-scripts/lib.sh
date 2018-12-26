@@ -8,7 +8,7 @@
 
 # Keepass pasting problem
 sudo pacman -S --noconfirm --needed xsel
-# Resize an Rotate
+# Resize and Rotate
 sudo pacman -S --noconfirm --needed xorg-xrandr
-
-broadcom-wl-dkms
+# MacBook Pro Broadcom Drivers
+sudo pacman -S --noconfirm --needed linux419-broadcom-wl
