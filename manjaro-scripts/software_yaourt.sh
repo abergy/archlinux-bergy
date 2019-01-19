@@ -6,8 +6,9 @@
 #
 #======================================================================================
 
-sudo pacaur -S --noconfirm --needed anydesk
+yaourt -S --noconfirm --needed mbpfan-git
+#systemctl enable mbpfan
+yaourt -S --noconfirm --needed typora
 
-sudo pacaur -S --noconfirm --needed gitkraken
 
-sudo pacaur -S --noconfirm --needed boostnote
+
